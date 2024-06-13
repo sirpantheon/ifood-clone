@@ -163,7 +163,6 @@ const hotel = (item) => {
     scrollViewRef.current.scrollTo({ y: yOffset, animated: true });
   };
   const [modalVisible, setModalVisible] = useState(false);
-  const recievedMenu = JSON.parse(params?.menu)
   return (
     <>
       <ScrollView ref={scrollViewRef} style={{ backgroundColor: "white" }}>
