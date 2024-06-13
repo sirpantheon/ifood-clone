@@ -17,22 +17,22 @@ const cart = () => {
   const instructions = [
     {
       id: "0",
-      name: "Avoid Ringing",
+      name: "Evite tocar",
       iconName: "bell",
     },
     {
       id: "1",
-      name: "Leave at the door",
+      name: "Deixe na porta",
       iconName: "door-open",
     },
     {
       id: "2",
-      name: "directions to reach",
+      name: "caminhos para chegar",
       iconName: "directions",
     },
     {
       id: "3",
-      name: "Avoid Calling",
+      name: "Evite ligar",
       iconName: "phone-alt",
     },
   ];
@@ -447,7 +447,7 @@ const cart = () => {
               </Text>
             </View>
             <Text style={{ fontSize: 16, fontWeight: "500", color: "white" }}>
-              Faça a encomenda
+              Finalizar
             </Text>
           </Pressable>
         </Pressable>
