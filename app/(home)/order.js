@@ -111,7 +111,7 @@ const order = () => {
                     marginBottom: 6,
                   }}
                 >
-                  Acabe com sua fome 
+                  Doações
                 </Text>
                 <Text
                   style={{
@@ -203,7 +203,7 @@ const order = () => {
                         fontWeight: "bold",
                       }}
                     >
-                      r$70
+                      R$70
                     </Text>
                   </TouchableOpacity>
                 </Pressable>
